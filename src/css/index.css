@@ -1,0 +1,166 @@
+/* jenkins theme */
+@import 'https://cdn.rawgit.com/afonsof/jenkins-material-theme/gh-pages/dist/material-blue-grey.css';
+/* custom css */
+body > footer {
+    background-color: #31393A;
+}
+#header {
+    background-color: #31393A;
+}
+body > footer .container-fluid .row {
+    display: flex;
+    align-items: center;
+}
+#header .logo:after {
+    display: none;
+}
+footer .jenkins-lnk,
+footer .contact-lnk {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+body#jenkins {
+    padding-bottom: 75px;
+}
+footer .jenkins-lnk {
+    color: #F9A51A;
+}
+footer .footer-logo-thrive {
+    width: 120px;
+    height: 40px;
+    display: block;
+}
+body > footer .container-fluid .col-md-18,
+body > footer .container-fluid .col-md-6 {
+    display: none;
+}
+.icon-black {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #31393A;
+}
+footer .col-md-16:last-child {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+.header-jenkins-logo {
+    width: 150px;
+    height: 48px !important;
+    display: block;
+    background: url('https://jenkins.thrivedatascience.com/userContent/logo.svg') 0 0 no-repeat;
+    background-size: contain;
+
+}
+.header-jenkins-logo img {
+    display: none;
+}
+#projectstatus th > a {
+    color: #ffffff;
+}
+#projectstatus th > a:hover {
+    color: #F9A51A;
+    opacity: 1;
+}
+#projectstatus th {
+    background-color: #31393A;
+    color: #FFFFFF !important;
+}
+.tabBar [type=radio]:checked ~ a:hover {
+    opacity: 1;
+    border-color: #31393A;
+    color: #F9A51A;
+}
+.tabBar [type=radio]:checked ~ a {
+    background-color: #31393A;
+    color: #ffffff;
+}
+.tabBar .tab a.addTab {
+    border-color: #F9A51A;
+    color: #F9A51A;
+}
+.tabBar .tab a.addTab:hover {
+    background-color: unset;
+}
+#projectstatus tr .model-link.inside {
+    color: #F9A51A;
+}
+.pane-header {
+    background-color: #31393A;
+}
+#side-panel .pane-header,
+#side-panel .pane-frame {
+    border-color: #31393A;
+    color: #ffffff;
+}
+#side-panel .pane-header a,
+.pane-header .collapse {
+    color: #ffffff;
+}
+#side-panel .pane-header a:hover {
+    color: #F9A51A;
+    opacity: 1;
+}
+#main-panel .pane-frame:hover,
+#main-panel .pane-frame {
+    border-color: #31393A;
+}
+#side-panel .pane-frame:hover {
+    border-color: #31393A;
+}
+.bigtable th {
+    background-color: #31393A;
+}
+table.sortable a.sortheader,
+table.sortable span.sortarrow {
+    color: #ffffff;
+}
+table.sortable a.sortheader:hover {
+    opacity: 1;
+    color: #F9A51A;
+}
+.task-icon-link[href="/"] {
+    background-color: #31393A;
+}
+.tabBar .tab a:hover,
+.tabBar .tab a {
+    border-color: #F9A51A;
+    color: #F9A51A;
+}
+#jenkins .yui-button.primary .btn, 
+#jenkins .yui-button.primary button {
+    color: #fff !important;
+    background-color: #F9A51A !important;
+    border-color: #F9A51A !important;
+    border-radius: 8px !important;
+}
+#jenkins .apply-button.applyButton {
+    border-color: #F9A51A;
+    background-color: #FFFFFF;
+    color: #F9A51A;
+}
+#jenkins .yui-button button,
+#jenkins .yui-button .btn,
+#jenkins .yui-button .hetero-list-add,
+#jenkins .yui-button.danger button,
+#jenkins .yui-button.danger button:hover, 
+#jenkins .yui-button.danger .hover {
+    border-radius: 8px !important;
+}
+#people a:hover {
+    color: #F9A51A;
+    opacity: 1;
+}
+#people a {
+    color: #F9A51A;
+}
+#visible-am-container {
+    display: none !important;
+}
